@@ -1,0 +1,32 @@
+{
+  "name": "node-red-contrib-socketio2.x-client-with-dynamic-listener-emitter",
+  "version": "0.1.11",
+  "description": "Node Red client to work with socket.io 2.x server,is edit clone from node-red-contrib-socketio-client-with-dynamic-listener-emitter ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouyang789987/node-red-contrib-socketio2.x-client-with-dynamic-listener-emitter.git"
+  },
+  "keywords": [
+    "node-red",
+    "socket.io 2.x"
+  ],
+  "author": "ouyang789987",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ouyang789987/node-red-contrib-socketio2.x-client-with-dynamic-listener-emitter/issues"
+  },
+  "homepage": "https://github.com/ouyang789987/node-red-contrib-socketio2.x-client-with-dynamic-listener-emitter#readme",
+  "dependencies": {
+    "socket.io-client": "^2.3.1"
+  },
+  "node-red": {
+    "nodes": {
+      "socketio-client": "socketio-client/socketio-dynamic-client.js"
+    }
+  }
+}
+
